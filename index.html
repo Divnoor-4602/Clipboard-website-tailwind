@@ -15,21 +15,17 @@
   </head>
   <body>
     <!-- global container -->
-    <div class="flex justify-center items-center min-h-screen">
+    <div
+      class="flex flex-col justify-center items-center min-h-screen bg-hero-pattern-mobile bg-no-repeat bg-contain md:bg-hero-pattern-desktop"
+    >
       <!-- Hero section -->
-      <div
-        class="p-12 md:p-40 flex flex-col gap-8 items-center bg-hero-pattern-mobile bg-no-repeat bg-contain md:bg-hero-pattern-desktop"
-      >
+      <div class="section-container md:p-40">
         <!-- logo -->
         <img src="./images/logo.svg" class="w-32 m-auto mb-8" />
         <!-- main text -->
-        <h3
-          class="text-3xl md:text-4xl lg:text-5xl text-darkGrayishBlue font-semibold text-center"
-        >
-          A history of everything you copy
-        </h3>
+        <h3 class="section-heading">A history of everything you copy</h3>
         <!-- supporting text -->
-        <div class="text-2xl text-strongCyan text-center md:mx-8 lg:mx-32">
+        <div class="section-description text-2xl">
           Clipboard allows you to tack and organize everything you copy.
           Intsantly access your clipboard on all your devices.
         </div>
@@ -43,6 +39,50 @@
           <button class="button-container bg-lightBlue">
             Download for Mac
           </button>
+        </div>
+      </div>
+      <!-- left hero section -->
+      <div class="section-container md:p-40 md:pt-0">
+        <h1 class="section-heading">Keep track of your snippets</h1>
+        <div class="section-description text-lg">
+          Clipboard instantly stores any item you copy in the cloud, meaning you
+          can access your snippets immediately on all your devices. Our Mac and
+          iOS apps will help you organize everything.
+        </div>
+        <!-- image and feature container -->
+        <div class="flex flex-col md:flex-row justify-between mt-16">
+          <!-- image -->
+          <img
+            src="./images/image-computer.png"
+            alt="image-computer-picture"
+            class="md:absolute right-[50%]"
+          />
+          <!-- features section -->
+          <div class="flex flex-col gap-8">
+            <!-- feature -->
+            <div class="text-2xl font-semibold text-darkGrayishBlue">
+              Quick Search
+              <div class="text-xl font-normal text-strongCyan mt-4">
+                Easily search your snippets by content, category, web address,
+                application, and more.
+              </div>
+            </div>
+            <!-- feature  -->
+            <div class="text-2xl font-semibold text-darkGrayishBlue">
+              iCloud Sync
+              <div class="text-xl font-normal text-strongCyan mt-4">
+                Instantly saves and syncs snippets across all your devices.
+              </div>
+            </div>
+            <!-- feature  -->
+            <div class="text-2xl font-semibold text-darkGrayishBlue">
+              Completely History
+              <div class="text-xl font-normal text-strongCyan mt-4">
+                Retrieve any snippets from the first moment you started using
+                the app.
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

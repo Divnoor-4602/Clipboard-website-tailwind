@@ -8,3 +8,15 @@ body {
 .button-container {
   @apply rounded-full text-white text-xl px-10 py-4 font-medium shadow-lg hover:opacity-80 transition-opacity duration-300;
 }
+
+.section-container {
+  @apply p-12  flex flex-col gap-8 items-center mt-16;
+}
+
+.section-heading {
+  @apply text-3xl md:text-4xl lg:text-5xl text-darkGrayishBlue font-semibold text-center;
+}
+
+.section-description {
+  @apply text-strongCyan text-center md:mx-8 lg:mx-32;
+}
