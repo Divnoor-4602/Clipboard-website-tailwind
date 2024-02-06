@@ -14,7 +14,7 @@ body {
 }
 
 .section-heading {
-  @apply text-3xl md:text-4xl lg:text-5xl text-darkGrayishBlue font-semibold text-center;
+  @apply text-4xl md:text-5xl lg:text-6xl text-darkGrayishBlue font-semibold text-center;
 }
 
 .section-description {
