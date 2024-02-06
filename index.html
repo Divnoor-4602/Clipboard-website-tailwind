@@ -17,20 +17,33 @@
     <!-- global container -->
     <div class="flex justify-center items-center min-h-screen">
       <!-- Hero section -->
-      <div class="p-6 flex flex-col items-center">
+      <div
+        class="p-12 md:p-40 flex flex-col gap-8 items-center bg-hero-pattern-mobile bg-no-repeat bg-contain md:bg-hero-pattern-desktop"
+      >
         <!-- logo -->
-        <img src="./images/logo.svg" />
+        <img src="./images/logo.svg" class="w-32 m-auto mb-8" />
         <!-- main text -->
-        <h3 class="text-2xl md:text-3xl text-darkGrayishBlue font-semibold">
+        <h3
+          class="text-3xl md:text-4xl lg:text-5xl text-darkGrayishBlue font-semibold text-center"
+        >
           A history of everything you copy
         </h3>
         <!-- supporting text -->
-        <div class="text-2xl text-strongCyan">
+        <div class="text-2xl text-strongCyan text-center md:mx-8 lg:mx-32">
           Clipboard allows you to tack and organize everything you copy.
           Intsantly access your clipboard on all your devices.
         </div>
         <!-- download buttons container -->
-        <div class="flex md:flex-row flex-col"></div>
+        <div
+          class="flex md:flex-row flex-col md:justify-center w-full gap-8 mt-8"
+        >
+          <button class="button-container bg-strongCyan">
+            Download for iOS
+          </button>
+          <button class="button-container bg-lightBlue">
+            Download for Mac
+          </button>
+        </div>
       </div>
     </div>
   </body>

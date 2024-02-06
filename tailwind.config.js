@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     screens: {
       sm: "480px",
-      md: "768px",
-      lg: "976px",
+      md: "889px",
+      lg: "1020px",
       xl: "1440px",
     },
     extend: {
@@ -17,6 +17,10 @@ module.exports = {
       },
       fontFamily: {
         sans: ["Bai Jamjuree", "sans-serif"],
+      },
+      backgroundImage: {
+        "hero-pattern-desktop": "url('/images/bg-header-desktop.png')",
+        "hero-pattern-mobile": "url('/images/bg-header-mobile.png')",
       },
     },
   },

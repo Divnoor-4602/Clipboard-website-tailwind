@@ -4,3 +4,7 @@
 
 body {
 }
+
+.button-container {
+  @apply rounded-full text-white text-xl px-10 py-4 font-medium shadow-lg hover:opacity-80 transition-opacity duration-300;
+}
